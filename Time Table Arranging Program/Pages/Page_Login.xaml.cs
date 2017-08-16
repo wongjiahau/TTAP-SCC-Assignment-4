@@ -153,8 +153,13 @@ namespace Time_Table_Arranging_Program.Pages {
 
         }
 
-        private void LoginButton_OnClick(object sender , RoutedEventArgs e) {
-            MessageBox.Show("Not implemented yet");
+        private void LoginButton_OnClick(object sender , RoutedEventArgs e)
+        {
+            string StudentIdInput, PasswordInput, CaptchaInput;
+            StudentIdInput = UserNameBox.Text;
+            PasswordInput = PasswordBox.Password;
+            CaptchaInput = CaptchaBox.Text;
+            MessageBox.Show(CaptchaInput);
         }
     }
 }
