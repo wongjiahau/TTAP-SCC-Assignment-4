@@ -51,6 +51,12 @@ namespace NUnit.Tests2.TestSuite_HtmlSlotParser {
 		    		new Slot(20, "UAPS2003", "INTRODUCTION TO SOCIOLOGY".Beautify(), "1", "T", Day.Wednesday, "KB313",new TimePeriod(Time.CreateTime_24HourFormat(10, 00), Time.CreateTime_24HourFormat(11, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 		    		new Slot(21, "UAPS2003", "INTRODUCTION TO SOCIOLOGY".Beautify(), "2", "T", Day.Thursday, "KB308",new TimePeriod(Time.CreateTime_24HourFormat(16, 00), Time.CreateTime_24HourFormat(17, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 		    		new Slot(21, "UAPS2003", "INTRODUCTION TO SOCIOLOGY".Beautify(), "2", "T", Day.Thursday, "KB308",new TimePeriod(Time.CreateTime_24HourFormat(17, 00), Time.CreateTime_24HourFormat(18, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(22, "UJGP1003", "FUNDAMENTALS OF PSYCHOLOGY".Beautify(), "1", "L", Day.Monday, "KB201",new TimePeriod(Time.CreateTime_24HourFormat(15, 00), Time.CreateTime_24HourFormat(17, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(22, "UJGP1003", "FUNDAMENTALS OF PSYCHOLOGY".Beautify(), "1", "L", Day.tuesday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(15, 00), Time.CreateTime_24HourFormat(17, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(23, "UJGP1003", "FUNDAMENTALS OF PSYCHOLOGY".Beautify(), "1", "T", Day.Monday, "KB201",new TimePeriod(Time.CreateTime_24HourFormat(17, 00), Time.CreateTime_24HourFormat(18, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(23, "UJGP1003", "FUNDAMENTALS OF PSYCHOLOGY".Beautify(), "1", "T", Day.Tuesday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(17, 00), Time.CreateTime_24HourFormat(18, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(24, "UJGP1003", "FUNDAMENTALS OF PSYCHOLOGY".Beautify(), "2", "T", Day.Thursday, "KB307",new TimePeriod(Time.CreateTime_24HourFormat(16, 00), Time.CreateTime_24HourFormat(17, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		   		new Slot(24, "UJGP1003", "FUNDAMENTALS OF PSYCHOLOGY".Beautify(), "2", "T", Day.Thursday, "KB307",new TimePeriod(Time.CreateTime_24HourFormat(17, 00), Time.CreateTime_24HourFormat(18, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 	    };
         }
     }
