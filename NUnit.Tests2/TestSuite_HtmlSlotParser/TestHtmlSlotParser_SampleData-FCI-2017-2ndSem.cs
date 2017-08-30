@@ -57,7 +57,12 @@ namespace NUnit.Tests2.TestSuite_HtmlSlotParser {
 		    		new Slot(23, "UJGP1003", "FUNDAMENTALS OF PSYCHOLOGY".Beautify(), "1", "T", Day.Tuesday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(17, 00), Time.CreateTime_24HourFormat(18, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 		    		new Slot(24, "UJGP1003", "FUNDAMENTALS OF PSYCHOLOGY".Beautify(), "2", "T", Day.Thursday, "KB307",new TimePeriod(Time.CreateTime_24HourFormat(16, 00), Time.CreateTime_24HourFormat(17, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 		   		new Slot(24, "UJGP1003", "FUNDAMENTALS OF PSYCHOLOGY".Beautify(), "2", "T", Day.Thursday, "KB307",new TimePeriod(Time.CreateTime_24HourFormat(17, 00), Time.CreateTime_24HourFormat(18, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
-	    };
+	   			new Slot(25, "UJLL1093", "INTRODUCTION TO KOREAN".Beautify(), "2", "L", Day.Monday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(14, 00), Time.CreateTime_24HourFormat(16, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(25, "UJLL1093", "INTRODUCTION TO KOREAN".Beautify(), "2", "L", Day.Thursday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(08, 00), Time.CreateTime_24HourFormat(10, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(26, "UJLL1093", "INTRODUCTION TO KOREAN".Beautify(), "3", "L", Day.Tuesday, "KB301",new TimePeriod(Time.CreateTime_24HourFormat(08, 00), Time.CreateTime_24HourFormat(10, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(26, "UJLL1093", "INTRODUCTION TO KOREAN".Beautify(), "3", "L", Day.Thursday, "KB301",new TimePeriod(Time.CreateTime_24HourFormat(14, 00), Time.CreateTime_24HourFormat(16, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(27, "UJLL1093", "INTRODUCTION TO KOREAN".Beautify(), "2", "L", Day.Monday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(16, 00), Time.CreateTime_24HourFormat(17, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+	    }
         }
     }
 }
