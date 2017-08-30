@@ -40,6 +40,11 @@ namespace NUnit.Tests2.TestSuite_HtmlSlotParser {
 		    		new Slot(15, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "1", "T", Day.Tuesday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(10, 00), Time.CreateTime_24HourFormat(11, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 		    		new Slot(15, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "1", "T", Day.Wednesday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(16, 00), Time.CreateTime_24HourFormat(17, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 		    		new Slot(16, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "2", "T", Day.Tuesday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(11, 00), Time.CreateTime_24HourFormat(12, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(16, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "2", "T", Day.Wednesday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(17, 00), Time.CreateTime_24HourFormat(18, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(17, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "3", "T", Day.Wednesday, "KB200",new TimePeriod(Time.CreateTime_24HourFormat(10, 00), Time.CreateTime_24HourFormat(11, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(17, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "3", "T", Day.Thursday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat1(16, 00), Time.CreateTime_24HourFormat(17, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(18, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "4", "T", Day.Wednesday, "KB200",new TimePeriod(Time.CreateTime_24HourFormat(11, 00), Time.CreateTime_24HourFormat(12, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(18, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "4", "T", Day.Thursday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(17, 00), Time.CreateTime_24HourFormat(18, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 	    };
         }
     }
