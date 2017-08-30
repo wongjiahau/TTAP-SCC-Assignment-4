@@ -78,7 +78,19 @@ namespace NUnit.Tests2.TestSuite_HtmlSlotParser {
 		new Slot(34, "UKAI3013", "E-COMMERCE".Beautify(), "1", "T", Day.Monday, "KA404",new TimePeriod(Time.CreateTime_24HourFormat(11, 00), Time.CreateTime_24HourFormat(12, 30)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 		new Slot(34, "UKAI3013", "E-COMMERCE".Beautify(), "1", "T", Day.Monday, "KA404",new TimePeriod(Time.CreateTime_24HourFormat(12, 30), Time.CreateTime_24HourFormat(14, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 		new Slot(35, "UKAI3013", "E-COMMERCE".Beautify(), "2", "T", Day.Monday, "KA404",new TimePeriod(Time.CreateTime_24HourFormat(16, 00), Time.CreateTime_24HourFormat(17, 30)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
-		new Slot(35, "UKAI3013", "E-COMMERCE".Beautify(), "2", "T", Day.Monday, "KA404",new TimePeriod(Time.CreateTime_24HourFormat(17, 30), Time.CreateTime_24HourFormat(19, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),    
+		new Slot(35, "UKAI3013", "E-COMMERCE".Beautify(), "2", "T", Day.Monday, "KA404",new TimePeriod(Time.CreateTime_24HourFormat(17, 30), Time.CreateTime_24HourFormat(19, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})), 
+		new Slot(36, "UKAI3013", "E-COMMERCE".Beautify(), "3", "T", Day.Monday, "KA409",new TimePeriod(Time.CreateTime_24HourFormat(16, 00), Time.CreateTime_24HourFormat(17, 30)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		new Slot(36, "UKAI3013", "E-COMMERCE".Beautify(), "3", "T", Day.Monday, "KA409",new TimePeriod(Time.CreateTime_24HourFormat(17, 30), Time.CreateTime_24HourFormat(19, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		new Slot(37, "UKAI3013", "E-COMMERCE".Beautify(), "4", "T", Day.Tuesday, "KA404",new TimePeriod(Time.CreateTime_24HourFormat(12, 00), Time.CreateTime_24HourFormat(13, 30)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		new Slot(37, "UKAI3013", "E-COMMERCE".Beautify(), "4", "T", Day.Wednesday, "KA404",new TimePeriod(Time.CreateTime_24HourFormat(14, 30), Time.CreateTime_24HourFormat(16, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		new Slot(38, "UKAI3013", "E-COMMERCE".Beautify(), "5", "T", Day.Thursday, "KA404",new TimePeriod(Time.CreateTime_24HourFormat(16, 00), Time.CreateTime_24HourFormat(17, 30)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		new Slot(38, "UKAI3013", "E-COMMERCE".Beautify(), "5", "T", Day.Thursday, "KA404",new TimePeriod(Time.CreateTime_24HourFormat(17, 30), Time.CreateTime_24HourFormat(19, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		new Slot(39, "UKAI3013", "E-COMMERCE".Beautify(), "6", "T", Day.Thursday, "KA409",new TimePeriod(Time.CreateTime_24HourFormat(16, 00), Time.CreateTime_24HourFormat(17, 30)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		new Slot(39, "UKAI3013", "E-COMMERCE".Beautify(), "6", "T", Day.Thursday, "KA409",new TimePeriod(Time.CreateTime_24HourFormat(17, 30), Time.CreateTime_24HourFormat(19, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})), 
+		new Slot(40, "UKAI3013", "E-COMMERCE".Beautify(), "8", "T", Day.Monday, "KA409",new TimePeriod(Time.CreateTime_24HourFormat(11, 00), Time.CreateTime_24HourFormat(12, 30)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		new Slot(40, "UKAI3013", "E-COMMERCE".Beautify(), "8", "T", Day.Monday, "KA409",new TimePeriod(Time.CreateTime_24HourFormat(12, 30), Time.CreateTime_24HourFormat(14, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		new Slot(41, "UKAI3013", "E-COMMERCE".Beautify(), "9", "T", Day.Friday, "KA404",new TimePeriod(Time.CreateTime_24HourFormat(8, 00), Time.CreateTime_24HourFormat(9, 30)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		new Slot(41, "UKAI3013", "E-COMMERCE".Beautify(), "9", "T", Day.Friday, "KA404",new TimePeriod(Time.CreateTime_24HourFormat(9, 30), Time.CreateTime_24HourFormat(11, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),    
             };
         }
     }
