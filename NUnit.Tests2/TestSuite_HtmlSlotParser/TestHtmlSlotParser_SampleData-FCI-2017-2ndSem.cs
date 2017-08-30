@@ -35,6 +35,11 @@ namespace NUnit.Tests2.TestSuite_HtmlSlotParser {
 	    			new Slot(12, "UALF1003", "INTRODUCTION TO FRENCH".Beautify(), "6", "T", Day.Wednesday, "KB313",new TimePeriod(Time.CreateTime_24HourFormat(17, 00), Time.CreateTime_24HourFormat(18, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 	   			new Slot(13, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "1", "L", Day.Tuesday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(08, 00), Time.CreateTime_24HourFormat(10, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 		  		new Slot(13, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "1", "L", Day.Wednesday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(14, 00), Time.CreateTime_24HourFormat(16, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(14, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "2", "L", Day.Wednesday, "KB200",new TimePeriod(Time.CreateTime_24HourFormat(08, 00), Time.CreateTime_24HourFormat(10, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+	   			new Slot(14, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "2", "L", Day.Thursday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(14, 00), Time.CreateTime_24HourFormat(16, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(15, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "1", "T", Day.Tuesday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(10, 00), Time.CreateTime_24HourFormat(11, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(15, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "1", "T", Day.Wednesday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(16, 00), Time.CreateTime_24HourFormat(17, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		    		new Slot(16, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "2", "T", Day.Tuesday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(11, 00), Time.CreateTime_24HourFormat(12, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 	    };
         }
     }
