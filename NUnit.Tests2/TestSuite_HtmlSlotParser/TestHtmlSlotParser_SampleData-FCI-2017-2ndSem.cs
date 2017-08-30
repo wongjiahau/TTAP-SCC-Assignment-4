@@ -29,10 +29,12 @@ namespace NUnit.Tests2.TestSuite_HtmlSlotParser {
 	    			new Slot(9, "MPU34072", "ART, CRAFT, AND DESIGN".Beautify(), "2", "L", Day.Thursday, "KB200",new TimePeriod(Time.CreateTime_24HourFormat(14, 00), Time.CreateTime_24HourFormat(16, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 		    		new Slot(10, "UALF1003", "INTRODUCTION TO FRENCH".Beautify(), "3", "L", Day.Tuesday, "KB308",new TimePeriod(Time.CreateTime_24HourFormat(08, 00), Time.CreateTime_24HourFormat(10, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 		      		new Slot(10, "UALF1003", "INTRODUCTION TO FRENCH".Beautify(), "3", "L", Day.Wednesday, "KB313",new TimePeriod(Time.CreateTime_24HourFormat(14, 00), Time.CreateTime_24HourFormat(16, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
-		    		new Slot(11, "UALF1003", "INTRODUCTION TO FRENCH".Beautify(), "5", "L", Day.Tuesday, "KB308",new TimePeriod(Time.CreateTime_24HourFormat(10, 00), Time.CreateTime_24HourFormat(11, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
-	    
-	    
-	    
+		    		new Slot(11, "UALF1003", "INTRODUCTION TO FRENCH".Beautify(), "5", "T", Day.Tuesday, "KB308",new TimePeriod(Time.CreateTime_24HourFormat(10, 00), Time.CreateTime_24HourFormat(11, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+	    			new Slot(11, "UALF1003", "INTRODUCTION TO FRENCH".Beautify(), "5", "T", Day.Wednesday, "KB313",new TimePeriod(Time.CreateTime_24HourFormat(16, 00), Time.CreateTime_24HourFormat(17, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+	    			new Slot(12, "UALF1003", "INTRODUCTION TO FRENCH".Beautify(), "6", "T", Day.Tuesday, "KB308",new TimePeriod(Time.CreateTime_24HourFormat(11, 00), Time.CreateTime_24HourFormat(12, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+	    			new Slot(12, "UALF1003", "INTRODUCTION TO FRENCH".Beautify(), "6", "T", Day.Wednesday, "KB313",new TimePeriod(Time.CreateTime_24HourFormat(17, 00), Time.CreateTime_24HourFormat(18, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+	   			new Slot(13, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "1", "L", Day.Tuesday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(08, 00), Time.CreateTime_24HourFormat(10, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
+		  		new Slot(13, "UALJ2013", "INTRODUCTION TO JAPANESE".Beautify(), "1", "L", Day.Wednesday, "KB107",new TimePeriod(Time.CreateTime_24HourFormat(14, 00), Time.CreateTime_24HourFormat(16, 00)),new WeekNumber(new List<int>() {1, 2, 3, 4, 5, 6, 7})),
 	    };
         }
     }
